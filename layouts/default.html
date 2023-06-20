@@ -4,6 +4,11 @@
     <title>Test Page: Don't Panic</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="/fonts/fontawesome-free-6.4.0-web/css/all.min.css">
     <style>
       /* GLOBAL STYLES */
       html {
@@ -13,7 +18,7 @@
       body {
         display:flex;
         flex-direction: column;
-        font-family: helvetica, arial, sans;
+        font-family: 'Open Sans', helvetica, arial, sans;
         min-height: 100vh;
       }
       .content-container{
@@ -27,6 +32,10 @@
       }
       h2{
         font-size: 2em;
+      }
+      h1,h2,h3,h4,h5,h6 {
+        font-family: 'Raleway', helvetica, sans;
+        font-weight: 100;
       }
       a {
         color: #6397b5;
@@ -271,21 +280,21 @@
         text-align: center;
       }
       .social-link {
-        background: rgba(150, 150, 150, 0.5);
+        background: rgba(150,150,150,0.5);
         border-radius: 99px;
         box-sizing: border-box;
         color: #fff;
         display: inline-block;
         font-family: helvetica, arial, sans;
-        font-size: 1rem;
+        font-size: 1.7em;
         font-weight: bold;
-        height: 2.5em;
+        height: 1.5em;
         line-height: 1;
-        padding-top: 0.85em;
+        padding-top: 0.25em;
         text-align: center;
         text-decoration: none;
         vertical-align: middle;
-        width: 2.5em;
+        width: 1.5em;
       }
       .social-list > li {
         display: inline-block;
@@ -519,10 +528,9 @@
               <li><a href="https://valeriiatian.github.io/gallery/index.html">for example</a></li>
           </ul>
         </li>
-        <li><a href="#">Nav 3</a></li>
       </ul>
     </nav>
-      <a href="/" class="header-logo">
+      <a href="https://valeriiatian.github.io/layouts/default.html" class="header-logo">
         <img src="/images/logo.png" alt="Learn Enough">
       </a>
   </header>
@@ -532,13 +540,19 @@
         <h1>CODE DANGEROUSLY</h1>
       <ul class="social-list">
         <li>
-          <a href="https://example.com/" class="social-link">Fb</a>
+          <a href="https://facebook.com/learnenough" class="social-link">
+            <i class="fab fa-facebook"></i>
+          </a>
         </li>
         <li>
-          <a href="https://example.com/" class="social-link">Tw</a>
+          <a href="https://twitter.com/learnenough" class="social-link">
+            <i class="fab fa-twitter"></i>
+          </a>
         </li>
         <li>
-          <a href="https://example.com/" class="social-link">Gh</a>
+          <a href="https://github.com/learnenough" class="social-link">
+            <i class="fab fa-github"></i>
+          </a>
         </li>
       </ul>
       </div>
@@ -590,7 +604,7 @@
       <img src="https://placekitten.com/g/400/400">
       <h3>Michael Hartl</h3>
       <a href="https://twitter.com/mhartl" class="social-link">
-        Tw
+        <i class="fab fa-twitter"></i>
       </a>
       <div class="bio-copy">
         <p>
@@ -614,7 +628,7 @@
       <img src="https://placekitten.com/g/400/400">
       <h3>Lee Donahoe</h3>
       <a href="https://twitter.com/leedonahoe" class="social-link">
-        Tw
+        <i class="fab fa-twitter"></i>
       </a>
       <div class="bio-copy">
         <p>
@@ -629,7 +643,7 @@
       <img src="https://placekitten.com/g/400/400">
       <h3>Nick Merwin</h3>
       <a href="https://twitter.com/nickmerwin" class="social-link">
-        Tw
+        <i class="fab fa-twitter"></i>
       </a>
       <div class="bio-copy">
         <p>
